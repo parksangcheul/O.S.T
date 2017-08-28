@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <title></title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="favicon.png">
+    <!--<link rel="shortcut icon" href="favicon.ico">-->
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt ie 9]>
+    <script src="js/plugins/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/libs/modernizr-2.8.3.min.js"></script>
+    <script src="js/libs/jquery.min.js"></script>
+
+    <script src="js/plugins/jquery.easing.min.js"></script>
+    <script src="js/plugins/prefixfree.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/ScrollToPlugin.min.js"></script>
+
+    <script src="js/plugins/jquery.bxslider.min.js"></script>
+    <script src="js/plugins/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.side_menu.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <!--배경 그림자-->
+    <div class="side_shadow"></div>
+    <!--gnb-->
+    <div class="gnb">
+
+        <header>
+            <div class="inner clearfix">
+                <div class="main-sub-menu clearfix">
+                    <ul class="clearfix">
+                        <li><a href="">LOGIN</a></li>
+                        <li><a href="">JOIN</a></li>
+                        <li><a href="">MYPACE</a></li>
+                        <li><a href="">ORDER</a></li>
+                        <li><a href="">CART</a></li>
+                    </ul>
+                </div>
+
+                <div class="logo"><img src="img/logo.png" alt="OST로고"></div>
+                
+                <div class="main-menu clearfix">
+                    <ul>
+                        <li><a href="#">ALL</a></li>
+                        <li><a href="#">NECKLACE</a></li>
+                        <li><a href="#">EARRING</a></li>
+                        <li><a href="#">NRACELET</a></li>
+                        <li><a href="#">RING</a></li>
+                        <li><a href="#">COUPLEITEM</a></li>
+                        <li><a href="#">WATCH</a></li>
+                        <li><a href="#">WALLET</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--사이즈메뉴 버튼-->
+            <div class="side_menu_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!--사이드 메뉴-->
+            <div class="side_menu">
+
+                <!--info 영역-->
+                <div class="info">
+                    <figure>
+                        <img src="img/info-img.jpg" alt="Captain America"/>
+                        <div class="loginlist clearfix">
+                            <ul class="clearfix">
+                                <li><a href="">LOGIN</a></li>
+                                <li><a href="">JOIN</a></li>
+                                <li><a href="">MYPACE</a></li>
+                                <li><a href="">ORDER</a></li>
+                                <li><a href="">CART</a></li>
+                            </ul>
+                        </div>
+                    </figure>
+                    <img class="close_btn" src="img/close_btn.png" alt="close_btn" />
+                </div>
+
+                <!--메뉴들-->
+                <ul class="slide_main_menu">
+                    <li>
+                        <a class="arrow">ALL</a>
+                        <ul class="slide_sub_menu">
+                            <li><a href="#">Content</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="arrow">NECKLACE</a>
+                        <ul class="slide_sub_menu">
+                            <li><a href="#">Content</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="arrow">EARRING</a>
+                    </li>
+                    <li>
+                        <a class="arrow">RING</a>
+                        <ul class="slide_sub_menu">
+                            <li><a href="#">Content</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="arrow">COUPLEITEM</a>
+                        <ul class="slide_sub_menu">
+                            <li><a href="#">Content</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="arrow">WATCH</a>
+                        <ul class="slide_sub_menu">
+                            <li><a href="#">Content</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="arrow">WALLET</a>
+                        <ul class="slide_sub_menu">
+                            <li><a href="#">Content</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+
+        </header>
+
+    </div>
+
+    <!--VISUAL-->
+    <section class="visual section">
+        <div class="main-img"></div>
+    </section>
+
+    <!--NOTICE-->
+    <section class="notice-line section">
+        <div class="bg-left"></div>
+        <div class="bg-right"></div>
+        <div class="inner">
+
+            <div class="left-inner">
+                <h1>O.S.T ROMOTION</h1>
+                <div class="toggle-promotion">
+                    <div class="arrow-btn"></div>
+                </div>
+            </div>
+
+            <div class="right-inner">
+                <h1>NOTICE</h1>
+                <div class="slider">
+                    <ul>
+                        <li><a href="#">크리스마스 & 연말연시 스타벅스 매장 영업시간 변경 안내</a></li>
+                        <li><a href="#">[당첨자 발표] 2017 스타벅스 플래너 영수증 이벤트</a></li>
+                        <li><a href="#">스타벅스커피 코리아 애플리케이션 버전 업데이트 안내</a></li>
+                        <li><a href="#">[당첨자 발표] 뉴이어 전자영수증 이벤트</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--PROMOTION-->
+
+    <section class="promotion section">
+        <div class="inner">
+            <div class="slider">
+                <ul>
+                    <li class="first">
+                        <img src="img/promotion_slide1.jpg" alt="프로모션 이미지1">
+                        <a href="#" class="btn">자세히 보기</a>
+                    </li>
+                    <li>
+                        <img src="img/promotion_slide2.jpg" alt="프로모션 이미지2">
+                        <a href="#" class="btn">자세히 보기</a>
+                    </li>
+                    <li>
+                        <img src="img/promotion_slide3.jpg" alt="프로모션 이미지3">
+                        <a href="#" class="btn">자세히 보기</a>
+                    </li>
+                    <li>
+                        <img src="img/promotion_slide4.jpg" alt="프로모션 이미지4">
+                        <a href="#" class="btn">자세히 보기</a>
+                    </li>
+                    <li>
+                        <img src="img/promotion_slide5.jpg" alt="프로모션 이미지5">
+                        <a href="#" class="btn">자세히 보기</a>
+                    </li>
+                    <li>
+                        <img src="img/promotion_slide6.jpg" alt="프로모션 이미지6">
+                        <a href="#" class="btn">자세히 보기</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--WATCH-->
+
+    <section class="watch section">
+        <div class="inner clearfix">
+            <div class="left-text">
+                <h1 class="return-to-position to-right">WATCH</h1>
+                <p class="return-to-position to-right">The beauty and beauty in my <br>
+                    hand that tells all about the present</p>
+                <h3 class="return-to-position to-right"><a href="#">Show Now.</a></h3>
+            </div>
+            <div class="right-img return-to-position to-left">
+                <img src="img/watch.png" alt="시계사진">
+            </div>
+        </div>
+    </section>
+
+    <!--RING-->
+
+    <section class="ring section">
+        <div class="inner clearfix">
+            <div class="left-text">
+                <h1 class="return-to-position to-right">RING</h1>
+                <p class="return-to-position to-right">Display the beauty and the <br>
+                    beauty of each meaningful finger</p>
+                <h3 class="return-to-position to-right"><a href="#">Show Now.</a></h3>
+            </div>
+            <div class="right-img right-img return-to-position to-left">
+                <img src="img/ring.png" alt="반지사진">
+            </div>
+        </div>
+    </section>
+
+    <!--NECK-->
+
+    <section class="neck section">
+        <div class="inner clearfix">
+            <div class="left-text">
+                <h1 class="return-to-position to-right">NECKLACE</h1>
+                <p class="return-to-position to-right">A little taste and beauty <br>
+                    expressing all of a moment</p>
+                <h3 class="return-to-position to-right"><a href="#">Show Now.</a></h3>
+            </div>
+            <div class="right-img right-img return-to-position to-left">
+                <img src="img/neck.png" alt="목걸이사진">
+            </div>
+        </div>
+    </section>
+
+    <!--ITEM-->
+
+    <section class="best-item section bg-fixed">
+        <div class="inner">
+            <div class="item-text clearfix">
+                <h1>BEST</h1>
+                <h2>ITEM</h2>
+            </div>
+            <div class="slider-one ">
+                <ul>
+                    <li><a href="#"><img src="img/item-one-1.jpg" alt="상품1"></a></li>
+                    <li><a href="#"><img src="img/item-one-2.jpg" alt="상품2"></a></li>
+                    <li><a href="#"><img src="img/item-one-3.jpg" alt="상품3"></a></li>
+                    <li><a href="#"><img src="img/item-one-4.jpg" alt="상품4"></a></li>
+                    <li><a href="#"><img src="img/item-one-5.jpg" alt="상품5"></a></li>
+                    <li><a href="#"><img src="img/item-one-6.jpg" alt="상품6"></a></li>
+                    <li><a href="#"><img src="img/item-one-7.jpg" alt="상품7"></a></li>
+                    <li><a href="#"><img src="img/item-one-8.jpg" alt="상품8"></a></li>
+                </ul>
+            </div>
+
+            <div class="slider-two ">
+                <ul>
+                    <li><a href="#"><img src="img/item-two-1.jpg" alt="작은상품1"></a></li>
+                    <li><a href="#"><img src="img/item-two-2.jpg" alt="작은상품2"></a></li>
+                    <li><a href="#"><img src="img/item-two-3.jpg" alt="작은상품3"></a></li>
+                    <li><a href="#"><img src="img/item-two-4.jpg" alt="작은상품4"></a></li>
+                    <li><a href="#"><img src="img/item-two-5.jpg" alt="작은상품5"></a></li>
+                    <li><a href="#"><img src="img/item-two-6.jpg" alt="작은상품6"></a></li>
+                    <li><a href="#"><img src="img/item-two-7.jpg" alt="작은상품7"></a></li>
+                    <li><a href="#"><img src="img/item-two-8.jpg" alt="작은상품8"></a></li>
+                </ul>
+            </div>
+
+            <div class="item-arrow-left prev"></div>
+            <div class="item-arrow-right next"></div>
+        </div>
+    </section>
+
+    <!--BRAND-->
+
+    <section class="brand section">
+        <div class="inner">
+            <ul>
+                <li class="return-to-position to-right"><a href="#"><img src="img/brand-1.jpg" alt="브랜드1"></a></li>
+                <li class="return-to-position to-right"><a href="#"><img src="img/brand-2.jpg" alt="브랜드2"></a></li>
+                <li class="return-to-position to-right"><a href="#"><img src="img/brand-3.jpg" alt="브랜드3"></a></li>
+            </ul>
+            <h3 class="return-to-position to-right"><a href="#">Show Now.</a></h3>
+        </div>
+    </section>
+    
+    <!--INS-->
+    
+    <section class="ins section">
+        <div class="inner clearfix">
+            <ul>
+                <li><a href="#"><img src="img/ins-img1.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/ins-img2.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/ins-img3.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/ins-img4.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/ins-img5.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/ins-img6.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/ins-img7.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/ins-img8.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/ins-img9.jpg" alt=""></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!--TABMENU-->
+
+    <section class="tebmenu section">
+        <div class="inner">
+            <ul>
+                <li><a href="#">BRNAD STORY</a></li>
+                <li><a href="#">개인정보 처리방침</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">임직원인증</a></li>
+                <li><a href="#">OST STORE</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <footer>
+        <div class="sns">
+            <ul class=" clearfix">
+                <li><a href="#"><img src="img/f_blog.svg" alt="블로그"></a></li>
+                <li><a href="#"><img src="img/f_facebook.svg" alt="페이스북"></a></li>
+                <li><a href="#"><img src="img/f_instagram.svg" alt="인스타그램"></a></li>
+            </ul>
+        </div>
+        <div class="inner clearfix">
+            <div class="customer">
+                <h3>CUSTOMER CENTER</h3>
+                <pre>매장관련/AS문의 : 02-1600-0455
+
+온라인 쇼핑몰문의 : 032-262-3933
+                                       032-262-3910
+
+상담시간 : AM10:00~PM5:00[토.일.공휴일 휴무]
+점심시간: 12:00~13:00</pre>
+            </div>
+            <div class="copyright">
+                <pre>(주)이랜드월드 패션사업부 / 서울특별시 금천구 가산디지털1로 159 이랜드월드
+사업자등록번호 : 113-85-19030 / 통신판매업 신고번호 : 금천구청
+                    제 2005-01053호 / 대표이사 : 정수정
+개인정보보호 책임자 : 고충군 / E-mail : webmaster@ost.co.kr / 고객상담실
+                    대표번호 : 1600-0455
+COPYRIGHT© WWW.OST.CO.KR ALL RIGHT RESERVED</pre>
+            </div>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
